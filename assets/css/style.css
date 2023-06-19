@@ -217,7 +217,7 @@ body {
 
 .main-blue-button-hover a {
   display: inline-block;
-  background-color: #03a4ed;
+  background-color: #306FBA;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -894,7 +894,7 @@ Banner Style
 .main-banner .item h6 {
   text-transform: uppercase;
   font-size: 18px;
-  color: #0d6efd;
+  color: #306fba;
   margin-bottom: 15px;
 }
 
@@ -931,13 +931,13 @@ Banner Style
   line-height: 46px;
   border-radius: 50%;
   background: rgb(255,104,95);
-  background: linear-gradient(105deg, rgba(3,164,237,1) 0%, rgba(13,202,240,1) 100%);
+  background: linear-gradient(105deg, rgba(48,111,186,1) 0%, rgba(13,202,240,1) 100%);
   color: #fff;
   font-size: 20px;
 }
 
 .main-banner .item .down-buttons .call-button a {
-  color: #0d6efd;
+  color: #306FBA;
   font-size: 15px;
   font-weight: 500;
   margin-left: 30px;
@@ -953,6 +953,7 @@ Banner Style
   content: counter(dots);
   font-size: 20px;
   font-weight: 500;
+  margin-top: 10px;
   margin-left: 10px;
   color: #2a2a2a;
   width: 15px;
@@ -1030,8 +1031,8 @@ Services Style
 }
 
 .our-services .item .icon {
-  width: 45px;
-  height: 45px;
+  width: 200px;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -1702,7 +1703,7 @@ contact
   text-align: center;
   line-height: 46px;
   background: rgb(255,104,95);
-  background: linear-gradient(105deg, rgba(3,164,237,1) 0%, rgba(13,202,240,1) 100%);
+  background: linear-gradient(105deg, rgba(48,111,186,1) 0%, rgba(13,202,240,1) 100%);
   border-radius: 50%;
   color: #fff;
   font-size: 22px;
@@ -1714,6 +1715,12 @@ contact
   color: #03a4ed;
   font-size: 14px;
   font-weight: 400;
+  line-height: 25px;
+  text-transform: none;
+}
+.contact-us .info span strong {
+  color: #000;
+  font-weight: 500;
   line-height: 25px;
   text-transform: none;
 }
@@ -1818,7 +1825,7 @@ footer .about ul li {
 footer .about ul li a {
   width: 32px;
   height: 32px;
-  background-color: #03a4ed;
+  background-color: #306fba;
   color: #fff !important;
   border-radius: 50%;
   text-align: center;
@@ -1828,7 +1835,7 @@ footer .about ul li a {
 }
 
 footer .about ul li a:hover {
-  background-color: #03a4ed;
+  background-color: #306fba;
 }
 
 footer .footer-item ul li {
@@ -2021,6 +2028,6 @@ responsive
 }
 footer .fa-apple, .fa-android, .fa-windows {
     font-size: 15px;
-    color: #03a4ed;
+    color: #306fba;
     transition: all .3s;
 }
